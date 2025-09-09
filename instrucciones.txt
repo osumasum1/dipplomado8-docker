@@ -1,0 +1,8 @@
+luego de crear la imagen se le da un tag
+docker image tag <nombre_imagen> <usuario_docker_hub>/<nombre_imagen>:<tag>  #tag es la version o alguna etiqueta
+docker login #identificacion de usuario de docker hub
+docker push <usuario_docker_hub>/<nombre_imagen>:<tag>
+docker logout #elimina token de identificacion
+
+descargamos el proyecto con el comando: #se usa un docker-compose diferente por eso se inicia con -f
+docker-compose -f docker-compose-fromhub.yml up -d

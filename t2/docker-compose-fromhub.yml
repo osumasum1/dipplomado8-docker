@@ -1,0 +1,7 @@
+services:
+  web-server:
+    image: elpepe69/cv-apellidos-imagen:v1.0 #se descarga la imagen desde docker hub
+    restart: unless-stopped
+    container_name: proyecto-final #se asigna nombre al container
+    ports:
+      - "8585:80" #mapeo de puertos

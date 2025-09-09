@@ -1,0 +1,33 @@
+.tarjeta{
+  padding: 10px;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.tarjeta > .titulo{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.tarjeta > .content{
+  width: 500px;
+  display: flex;
+}
+
+.tarjeta > .content > .left{
+  width: 50%;
+}
+
+.tarjeta > .content > .right{
+  width: 50%;
+}
+
+.tarjeta > .content > .right > .img-container{
+  width: 100px;
+}
+
+.tarjeta > .content > .right > .img-container > img{
+  width: 100%;
+}
+

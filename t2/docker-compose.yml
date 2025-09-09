@@ -1,0 +1,6 @@
+services:
+  web:
+    image: cv-apellidos-imagen #nombre a la imagen
+    build:
+      context: .
+      dockerfile: Dockerfile #apunta al dockerfile que construye la imagen
